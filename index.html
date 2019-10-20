@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Brick Breaker Game by Jordan Winslow</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>JavaScript Brick Breaker Game by Jordan Winslow</h1>
+    <!-- LOAD ASSETS BEFORE RUNNING ANYTHING -->
+    <img id="imageOrb" src="/assets/images/orb.png" />
+    <div id="app"></div>
+    <p align="center">
+      <b>Use the Arrow Keys to Move the Paddle Up, Down, Left and Right</b>
+    </p>
+    <h2 align="center">Description:</h2>
+    <p id="description">
+      The purpose of this "game" is purely educational and is aimed at
+      demonstrating my knowledge of vanilla javascript.
+      <br /><br />
+      The game utilizes an array of 0's and 1's to generate a series of bricks
+      with HTML Canvas.
+      <br /><br />
+      Each brick is a classical JavaScript object that is assigned a boolean
+      "destroyed" state and uses an implementation of axis-aligned bounding box
+      collision detection I created to determine if the orb is touching the
+      brick on any side during every redraw of the canvas.
+      <br /><br />
+      The same collision detection is extended on the paddle to determine if the
+      ball hits the paddle.
+      <br /><br />
+      The bricks strobe in color is not a glitch, I was just playing around with
+      randomly generating colors on every redraw. Yes it's ugly, but hey, this
+      isn't a design project!
+      <br /><br />
+      The paddle is controlled with event handlers and CSS that converts
+      keystrokes to directions for the x and y axis.
+      <br /><br />
+      One thing I would change if I rewrote this program today would be to write
+      it with pure functions and no classes.
+    </p>
+    <script src="src/index.js"></script>
+  </body>
+</html>
