@@ -7,6 +7,7 @@
   <h1>Yet Another JavaScript Brick Breaking Game</h1>
 </a>
 
+## Description:
 <p>
 The purpose of this "game" is purely educational and is aimed at demonstrating my
 knowledge of vanilla javascript. 
@@ -26,8 +27,9 @@ for the x and y axis.
 One thing I would change if I rewrote this program today would be to write it with pure functions and
 no classes.
 </p>
-<p>
-  The code within demonstrates knowledge of the following foundations of JavaScript:
+
+ ## The code within demonstrates knowledge of the following foundations of JavaScript:
+ 
 <strong>
 <ul>
   <li>Higher-Order Functions
