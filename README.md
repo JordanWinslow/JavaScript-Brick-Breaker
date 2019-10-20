@@ -1,5 +1,9 @@
 <a href="https://codesandbox.io/embed/github/JordanWinslow/JavaScript-Brick-Breaker/tree/master/?fontsize=14&view=preview">
+  
+  ![](https://media.giphy.com/media/ic7vPaXeqQZ9zlDRrW/giphy.gif)
+  
   <img src="https://gdurl.com/Hypg" alt="JavaScript Brick Breaker Screenshot">
+  
   <h1>Yet Another JavaScript Brick Breaking Game</h1>
 </a>
 
